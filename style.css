@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(153, 148, 142);
+    font-size: 16px;
+}
+.navbar{
+    background-color: rgb(66, 142, 116);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(112, 112, 145);
+}
+.nav-list{
+    list-style-type: none;
+}
+.nav-list .nav-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.name{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
