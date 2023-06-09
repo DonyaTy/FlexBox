@@ -31,3 +31,45 @@ a:hover{
     font-weight: bold;
     font-size: 1.4rem;
 }
+.menu{
+    display: none;
+}
+.menu-line{
+    background-color: antiquewhite;
+    width: 20px;
+    height: 3px;
+    margin-bottom: 4px;
+}
+@media all and (max-width: 607px){
+    .navbar{
+        flex-direction: column;
+        height: 60px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+    .name{
+        position: absolute;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .nav-list{
+        background-color: rgb(66, 142, 116);
+        width: 100%;
+        text-align: center;
+        display: none;
+        padding-top: 200px;
+    }
+    .nav-list .nav-item{
+        display: block;
+        padding: 10px;
+        border-bottom: 2px solid antiquewhite;
+    }
+    .active{
+        display: block;
+    }
+}

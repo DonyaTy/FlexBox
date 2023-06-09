@@ -27,6 +27,19 @@
                 <a href="#">Contact us</a>
             </li>
         </ul>
+        <div class="menu" id="active-menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
     </nav>
 </body>
+<script>
+    const activeMenu = document.getElementById('active-menu');
+    const activeToggle = document.getElementById('active-toggle');
+
+    activeMenu.addEventListener('click', () =>{
+        activeToggle.classList.toggle('active')
+    })
+</script>
 </html>
